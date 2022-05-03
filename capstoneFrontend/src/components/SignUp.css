@@ -1,0 +1,15 @@
+#signupform {
+    border-width: 10px;
+}
+#username {
+    text-align: center;
+}
+#password {
+    text-align: center;
+}
+#password_confirmation{
+    text-align: center;
+}
+#signUpButton {
+    text-align: center;
+}

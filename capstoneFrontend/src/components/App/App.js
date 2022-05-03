@@ -6,6 +6,7 @@ import Home from "../Home";
 import About from "../About";
 import ContactForm from "../ContactForm";
 import Login from "../login";
+import SignUp from "../SignUp";
 
 function App() {
 
@@ -59,6 +60,9 @@ function handleLogin(user){
               </Route>
               <Route path= "/login">
                 <Login onLogin = {handleLogin}/>
+              </Route>
+              <Route path= "/SignUp">
+                <SignUp />
               </Route>
             </Switch>
       </BrowserRouter>
