@@ -1,0 +1,32 @@
+
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+      
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 500px;
+    }
+  }
+  form {
+    border: 3px solid #f1f1f1;
+    background-color: rgb(199, 191, 179);
+    height: 750px;
+  }
+  .mb-3 {
+      text-align: center;
+  }
+#formBasicEmail{
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+}
+#formBasicPassword{
+    border-radius: 30px;
+    text-align: center;
+}
+#login-heading {
+   margin: 10px;
+}

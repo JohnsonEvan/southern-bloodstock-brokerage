@@ -1,0 +1,146 @@
+/* Palette: https://coolors.co/528976-ffe184-7d80da-eeeeff-0d1b2a */
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Serif', serif;
+  color: black;
+}
+body {
+  background-color: #dac292;
+
+}
+/* home page */
+
+#hero-image {
+  height: 580px;
+  padding-top: 1px;
+  background: #e8eced url('https://www.desktopbackground.org/download/1600x900/2013/04/30/568628_horse-farm-hd-wallpapers_1920x1200_h.jpg') no-repeat center;
+}
+#hero-image h2 {
+  font-weight: 300;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.button-1 {
+  display: block;
+  background: #444;
+  border-radius: 3px;
+  color: #fff;
+  width: 180px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.button-1:hover {
+  background-color: #02b8dd;
+  color: #fff;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+/*header css*/
+header {
+  display:flex;
+  flex-direction: column;
+  gap:2%;
+  align-items: center;
+  background-color: whitesmoke;
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F56b8d3e7746fb9e9990d280b%2F1642172386721-V8ULHLW3E73ZLW2HLX5Z%2Fhero-15.jpg&imgrefurl=https%3A%2F%2Fwww.seethechampions.com%2F&tbnid=fu_dCEq3v75X7M&vet=12ahUKEwiTjpTx_bT3AhVzqnIEHb5hA2IQMygeegUIARCfAg..i&docid=TmZpgO2e10EcOM&w=960&h=400&q=horse%20farm%20pics&ved=2ahUKEwiTjpTx_bT3AhVzqnIEHb5hA2IQMygeegUIARCfAg");
+  color: black;
+  padding: 2%;
+}
+header div {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:2%;
+}
+header img {
+  display:block;
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+  border: 5px solid #555;
+}
+header input[type=text] {
+  width: 50%;
+  height:3em;
+  font-size: 1.25em;
+  background: none;
+  border:1px solid #270C0C;
+  border-radius: 4px;
+  color: black;
+  margin-top:1%;
+  padding:.5rem;
+}
+header h1 {
+  font-size: 2.0rem;
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+
+button {
+  border-radius: 10px;
+  margin: 10px;
+}
+th {
+  color: #0D1B2A;
+}
+td {
+  color: #0D1B2A;
+}
+/* nav bar css */
+.nav {
+  display: inline;
+  display: block;
+  padding: 8px;
+  background-color: lightgrey;
+}
+a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.links {
+  display: inline;
+}
+
+#header-patient-tracker{
+  margin: 10px;
+}
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+tbody tr:nth-child(odd) {
+  background-color: #c4b7a6;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e6e2d3;
+}
+
+
+
+table {
+  background-color: #ff33cc;
+}
+
