@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SignUp";
+import "./SignUp.css";
 
 
 function SignUp({ onLogin }) {

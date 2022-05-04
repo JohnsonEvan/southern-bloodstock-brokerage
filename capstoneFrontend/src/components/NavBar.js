@@ -10,7 +10,6 @@ function  NavBar({user}) {
             <NavLink exact to="/about">About</NavLink>
             <NavLink exact to="/contact">Contact</NavLink>
             <NavLink exact to="/login">Login</NavLink>
-            <NavLink exact to="/SignUp">SignUp</NavLink>
         </div>
     )
 }

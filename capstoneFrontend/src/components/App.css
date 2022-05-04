@@ -147,3 +147,32 @@ table {
 #ourteamhead {
   text-align: center;
 }
+/*signup page */
+#signupform {
+  text-align: center;
+}
+#username {
+  text-align: center;
+}
+#password {
+  text-align: center;
+}
+#password_confirmation {
+  text-align: center;
+}
+#signUpButton {
+  text-align: center;
+  border-radius: 10px;
+}
+/* login css*/
+#loginform {
+  text-align: center;
+}
+.logininputs {
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+#abovemap {
+  text-align: center;
+}

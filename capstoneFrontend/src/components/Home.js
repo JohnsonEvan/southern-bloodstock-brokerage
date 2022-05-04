@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import MapContainer from "./MapContainer";
 
 
 function Home(){
@@ -11,6 +12,12 @@ function Home(){
                 horse brokerage.</h2>
                 <a href="/login" class="button-1" id="home-button-1">Get Started</a>
             </div>
+        </div>
+        <br/>
+        <div>
+            <h1 id="abovemap">We're located at</h1>
+            <br/>
+        <MapContainer />
         </div>
     </div>
     );

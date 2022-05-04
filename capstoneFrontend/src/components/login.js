@@ -19,16 +19,21 @@ function Login({ onLogin }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <div id="logindiv">
+    <form id="loginform" onSubmit={handleSubmit}>
       <h2>Enter account info</h2>
-      <input
+      <label htmlFor="username">Username:</label>
+      <br/>
+      <input className="logininputs"
         type="text"
         value={username}
         placeholder="username"
         onChange={(e) => setUsername(e.target.value)}
       />
       <br/>
-      <input
+      <label htmlFor="username">Password:</label>
+      <br/>
+      <input className="logininputs"
         type="text"
         value={password}
         placeholder="password"
@@ -36,7 +41,10 @@ function Login({ onLogin }) {
       />
       <br/>
       <button type="submit">Login</button>
+      <br/>
+      <a href="./SignUp">Create an account</a>
     </form>
+    </div>
   );
 }
 export default Login

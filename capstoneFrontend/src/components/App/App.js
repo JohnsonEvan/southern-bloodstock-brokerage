@@ -7,6 +7,7 @@ import About from "../About";
 import ContactForm from "../ContactForm";
 import Login from "../login";
 import SignUp from "../SignUp";
+import MapContainer from "../MapContainer";
 
 function App() {
 
@@ -63,6 +64,9 @@ function handleLogin(user){
               </Route>
               <Route path= "/SignUp">
                 <SignUp />
+              </Route>
+              <Route path= "/MapContainer">
+                <MapContainer />
               </Route>
             </Switch>
       </BrowserRouter>

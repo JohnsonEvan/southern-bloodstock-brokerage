@@ -30,6 +30,7 @@ puts 'seeding users'
 end
 
 User.create(
-    username: "evan"
-    password: "random"
+    username: "evan",
+    password: "random",
+    password_confirmation: "random",
 )
