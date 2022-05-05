@@ -11,6 +11,7 @@ function horse({ horse}) {
             <td>{horse.price}</td>
             <td>{horse.broker}</td>
             <td>{horse.image}</td>
+            <td><button>Add to Favorite</button></td>
         </tr>
     )
 }

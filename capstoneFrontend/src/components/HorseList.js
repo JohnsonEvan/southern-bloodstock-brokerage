@@ -16,6 +16,7 @@ function HorseList({ horses}) {
                 <th>Price</th>
                 <th>Broker</th>
                 <th>Image</th>
+                <th>Favorite</th>
             </tr>
             {horseList}
           </tbody>
