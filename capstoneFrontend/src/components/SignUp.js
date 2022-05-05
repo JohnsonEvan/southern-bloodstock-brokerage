@@ -15,8 +15,8 @@ function SignUp({ onLogin }) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          username,
-          password,
+          username: username,
+          password: password,
           password_confirmation: passwordConfirmation,
         }),
       })

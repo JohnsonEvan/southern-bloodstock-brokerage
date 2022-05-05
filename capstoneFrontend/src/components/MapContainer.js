@@ -1,10 +1,8 @@
 import React from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import "./MapContainer.css"
 
-const containerStyle = {
-  width: "400px",
-  height: '400px',
-};
+
 
 const center = {
   lat: 32.519510,
@@ -31,9 +29,9 @@ function MapContainer() {
 
   return isLoaded ? (
       <GoogleMap
-        mapContainerStyle={containerStyle}
+        mapContainerStyle={{ width: "100%", height: "400px" }}
         center={center}
-        zoom={9}
+        zoom={10}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
