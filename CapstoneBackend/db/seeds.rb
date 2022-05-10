@@ -20,12 +20,12 @@ puts 'seeding users'
   image = 
   Horse.create(
     name: Faker::Creature::Horse.unique.name,
-    location: Faker::Address.street_address,
+    location: Faker::Address.state,
     longitude: Faker::Address.longitude,
     latitude: Faker::Address.latitude,
     broker: Faker::Name.name,
     price: price,
-    image: Faker::LoremFlickr.image(size: "50x60")
+    image: Faker::LoremFlickr.image(size: "200x300")
   )
 end
 

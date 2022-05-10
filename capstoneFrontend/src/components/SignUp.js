@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./SignUp.css";
+import EmailSignup from "./EmailSignup";
 
 
 function SignUp({ onLogin }) {
@@ -58,8 +59,14 @@ function SignUp({ onLogin }) {
         />
         <br/>
         <button id="signUpButton" type="submit">Submit</button>
+        <div id="emailsign">
+          <p>Recieve future updates!</p>
+        <EmailSignup />
+        </div>
       </form>
+      
       </div>
+      
     );
   }
 export default SignUp;

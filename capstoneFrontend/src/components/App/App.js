@@ -4,10 +4,11 @@ import NavBar from "../NavBar";
 import Horses from "../Horses";
 import Home from "../Home";
 import About from "../About";
-import ContactForm from "../ContactForm";
 import Login from "../login";
 import SignUp from "../SignUp";
 import MapContainer from "../MapContainer";
+import HorseCard from "../HorseCard";
+import EmailSignup from "../EmailSignup";
 
 function App() {
 
@@ -56,9 +57,6 @@ function handleLogin(user){
               <Route path= "/about" >
                 <About />
               </Route>
-              <Route path= "/ContactForm">
-                <ContactForm />
-              </Route>
               <Route path= "/login">
                 <Login onLogin = {handleLogin}/>
               </Route>
@@ -67,6 +65,12 @@ function handleLogin(user){
               </Route>
               <Route path= "/MapContainer">
                 <MapContainer />
+              </Route>
+              <Route path="/HorseCard">
+                <HorseCard />
+              </Route>
+              <Route path="/EmailSignup">
+                <EmailSignup />
               </Route>
             </Switch>
       </BrowserRouter>

@@ -8,8 +8,8 @@ import "./MapContainer.css"
 function MapContainer() {
 
   let center = {
-    lat: 32.519510,
-    lng: -90.162790
+    lat: 32.5195,
+    lng: -90.1627
   };
   console.log(center)
   function location(){
