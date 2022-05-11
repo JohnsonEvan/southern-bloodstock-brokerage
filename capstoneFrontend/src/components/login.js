@@ -15,7 +15,7 @@ function Login({ onLogin }) {
       body: JSON.stringify({ username,password }),
     })
       .then((r) => r.json())
-      .then((user) => onLogin(user));
+      .then((user) => window.location.reload())
   }
 
   return (

@@ -15,20 +15,20 @@ puts '🌱 Seeding...'
 puts 'seeding horses'
 puts 'seeding users'
 
-20.times do
-  price = Faker::Number.between(from: 10_000, to: 100_000).ceil(-4)
-  image = 
-  Horse.create(
-    name: Faker::Creature::Horse.unique.name,
-    location: Faker::Address.state,
-    longitude: Faker::Address.longitude,
-    latitude: Faker::Address.latitude,
-    broker: Faker::Name.name,
-    price: price,
-    image: Faker::LoremFlickr.image(size: "200x300")
-  )
-end
-
+  
+Horse.create(name: 'Bella', price: 35000, location: "Mississippi", broker: "Cameron vice",image: "image")
+Horse.create(name: 'Alex', price: 56500, location: "Arkansas", broker: "Jeff Knight",image: "image")
+Horse.create(name: 'Lilly', price: 22000, location: "Mississippi", broker: "Jeff Knight",image: "image")
+Horse.create(name: 'Alexia', price: 112000, location: "Alabama", broker: "Carl Simms",image: "image")
+Horse.create(name: 'Fancy', price: 40000, location: "Mississippi", broker: "Cameron vice",image: "image")
+Horse.create(name: 'Sugar', price: 33000, location: "Mississippi", broker: "Cameron vice",image: "image")
+Horse.create(name: 'Lady', price: 35000, location: "Mississippi", broker: "Jeff Knight",image: "image")
+Horse.create(name: 'Tucker', price: 20000, location: "Kentucky", broker: "Leah Thomas",image: "image")
+Horse.create(name: 'Dakota', price: 15000, location: "Mississippi", broker: "Cameron vice",image: "image")
+Horse.create(name: 'Cash', price: 160000, location: "Mississippi", broker: "Jeff Knight",image: "image")
+Horse.create(name: 'Daisy', price: 55000, location: "Mississippi", broker: "Cameron vice",image: "image")
+Horse.create(name: 'Spirit', price: 23500, location: "Alabama", broker: "Leah Thomas",image: "image")
+Horse.create(name: 'Cisco', price: 29000, location: "Mississippi", broker: "Cameron vice",image: "image")
 User.create(
     username: "evan",
     password: "random",

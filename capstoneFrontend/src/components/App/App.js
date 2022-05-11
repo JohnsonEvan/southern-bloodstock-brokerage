@@ -42,11 +42,13 @@ function App() {
 function handleLogin(user){
   setUser(user)
 }
-  
 
+function handlelogout(){
+setUser(null)
+}
   return (
     <BrowserRouter >
-        <NavBar user={user}/>
+        <NavBar user={user} onlogout={handlelogout}/>
             <Switch>
               <Route path= "/home" >
                 <Home />
