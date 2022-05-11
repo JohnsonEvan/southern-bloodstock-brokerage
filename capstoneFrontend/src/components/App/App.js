@@ -9,7 +9,7 @@ import SignUp from "../SignUp";
 import MapContainer from "../MapContainer";
 import HorseCard from "../HorseCard";
 import EmailSignup from "../EmailSignup";
-
+import MessageSeller from "../MessageSeller"
 function App() {
 
   
@@ -71,6 +71,9 @@ function handleLogin(user){
               </Route>
               <Route path="/EmailSignup">
                 <EmailSignup />
+              </Route>
+              <Route path="/message_seller">
+                <MessageSeller />
               </Route>
             </Switch>
       </BrowserRouter>

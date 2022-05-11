@@ -1,0 +1,9 @@
+form {
+    height: 100vh;
+    text-align: center;
+}
+.MessageSeller {
+    margin-top: 3vh;
+    text-align: center;
+    border-radius: 10px;
+}

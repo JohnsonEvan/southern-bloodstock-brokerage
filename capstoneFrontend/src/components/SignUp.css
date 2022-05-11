@@ -1,17 +1,25 @@
 
 #username {
     text-align: center;
+    border-radius: 90px;
 }
 #password {
+    border-radius: 90px;
     text-align: center;
 }
 #password_confirmation {
+    border-radius: 90px;
     text-align: center;
 }
 #signUpButton {
     text-align: center;
-    border-radius: 10px;
+    border-radius: 90px;
+    background-color: white;
+    width: 10vw;
+    margin-top: 2vh;
 }
 #emailsign {
     margin: 2vh;
+    border-radius: 90px;
+
 }

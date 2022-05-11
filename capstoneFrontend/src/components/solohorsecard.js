@@ -1,6 +1,8 @@
 import React from 'react'
+import {useHistory} from "react-router-dom"
 
 function Solohorsecard({horse}) {
+const history = useHistory()
 
     return (
         <div id="horsecardeach">
@@ -18,7 +20,8 @@ function Solohorsecard({horse}) {
             <th class="cardelements">{horse.price}</th>
             <th class="cardelements">{horse.location}</th>
             <th class="cardelements">{horse.broker}</th>
-            <th class="cardelements"><button id ="message-button" onclick="myFunction()"><strong>Message seller</strong></button></th>
+            <th class="cardelements"><button id ="message-button" onClick={()=>{history.push("/message_seller")
+            }}><strong>Message seller</strong></button></th>
         </tr>
         </table>
             </div>

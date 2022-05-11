@@ -26,8 +26,8 @@ function SignUp({ onLogin }) {
     }
   
     return (
-        <div id="signupform">
-      <form onSubmit={handleSubmit}>
+        <div >
+      <form id="signupform" onSubmit={handleSubmit}>
         <label htmlFor="username">Username:</label>
         <br/>
         <input
@@ -61,12 +61,11 @@ function SignUp({ onLogin }) {
         <button id="signUpButton" type="submit">Submit</button>
         <div id="emailsign">
           <p>Recieve future updates!</p>
-        <EmailSignup />
+
+        <EmailSignup/>
         </div>
       </form>
-      
       </div>
-      
     );
   }
 export default SignUp;
