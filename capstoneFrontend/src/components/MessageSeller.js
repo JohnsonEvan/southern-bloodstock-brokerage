@@ -10,7 +10,7 @@ function MessageSeller (){
         <br/>
         <textarea class="MessageSeller" type="message" name="message" placeholder="Write your message" required/>
         <br/>
-        <button class="MessageSeller" type="submit">Send</button>
+        <button id ="messagesellerbtn" class="MessageSeller" type="submit">Send</button>
     </form>)
       
    

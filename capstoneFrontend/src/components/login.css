@@ -29,3 +29,12 @@
 #login-heading {
    margin: 10px;
 }
+#loginbtn {
+  background-color: white;
+  width: 10%;
+  margin-top: 1vh;
+}
+#signuplinkbtn {
+  display: inline-flex;
+  margin-top: 1vh;
+}
