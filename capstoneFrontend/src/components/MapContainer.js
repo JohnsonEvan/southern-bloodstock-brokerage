@@ -46,7 +46,7 @@ function MapContainer() {
       <GoogleMap
         mapContainerStyle={{ width: "100%", height: "400px" }}
         center={center}
-        zoom={10}
+        zoom={20}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
