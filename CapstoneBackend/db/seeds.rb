@@ -31,7 +31,7 @@ Horse.create(name: 'Spirit', price: 23500, location: "Alabama", broker: "Leah Th
 Horse.create(name: 'Cisco', price: 29000, location: "Mississippi", broker: "Cameron vice",image: "/horse-13.jpeg")
 
 User.create(
-    username: "evan",
-    password: "random",
+    username: "test",
+    password: "admin",
     password_confirmation: "random",
 )

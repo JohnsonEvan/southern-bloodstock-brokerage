@@ -5,7 +5,7 @@ import MapContainer from "./MapContainer";
 
 function Home(){
     return (
-    <div>
+        <>
         <div id="hero-image">
             <div class="wrapper">
                 <h2><strong>A simplified, refined</strong><br/>
@@ -19,7 +19,7 @@ function Home(){
             <br/>
         <MapContainer />
         </div>
-    </div>
+        </>
     );
 }
 

@@ -5,7 +5,7 @@ function About(){
     return (
         <><div class="about-section">
             <h1>About Us</h1>
-            <p>We are a horse brokrage business located in Madison, MS.</p>
+            <p>We are a horse brokerage business located in Madison, MS.</p>
             <p>Our mission is to simplify the proccess of searching for, and purchasing, thouroughbred horses!</p>
         </div><h2 id="ourteamhead"><strong>Our Team</strong></h2><div class="row">
                 <div class="column">

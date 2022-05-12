@@ -21,7 +21,7 @@ function Login({ onLogin }) {
   return (
     <div id="logindiv">
     <form id="loginform" onSubmit={handleSubmit}>
-      <h2 id="login-header" class="login">Enter account info</h2>
+      <h2 id="login-header" class="login">Sign In</h2>
       <label htmlFor="username">Username:</label>
       <br/>
       <input className="logininputs"

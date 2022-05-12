@@ -14,9 +14,10 @@ body {
 
 #hero-image {
   height: 580px;
-  width: auto;
+  width: 100vw;
   padding-top: 1px;
   background: #e8eced url('https://www.desktopbackground.org/download/1600x900/2013/04/30/568628_horse-farm-hd-wallpapers_1920x1200_h.jpg') no-repeat center;
+  background-size: cover;
 }
 #hero-image h2 {
   font-weight: 300;
@@ -25,6 +26,9 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 40px;
+}
+.wrapper {
+  margin-top: 10vh;
 }
 .button-1 {
   display: block;
@@ -105,6 +109,11 @@ a {
   text-align: center;
   text-decoration: none;
   padding: 16px;
+}
+#navbarlogo {
+  width: 5%;
+  height: 5%;
+  display: inline;
 }
 
 .links {

@@ -17,6 +17,7 @@ function  NavBar({user,onlogout}) {
 
     return(
         <div className="nav">
+            <img id="navbarlogo" src="./sb.png"/>
             <a href="/home">Southern Bloodstock brokerage</a>
             <NavLink exact to="/home">Home</NavLink>
             {user?<NavLink exact to="/Horses">Inventory</NavLink>:null}
